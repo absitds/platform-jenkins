@@ -1,0 +1,5 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.tools.JDKInstaller_-DescriptorImpl plugin="jdk-tool@1.2">
+  <username>abhijit.shingate@albertsons.com</username>
+  <password>{AQAAABAAAAAQrhSUHxDOCYPCENImHcAPvr4NQ4/1buOmvfdgu0185bA=}</password>
+</hudson.tools.JDKInstaller_-DescriptorImpl>

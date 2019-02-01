@@ -6,14 +6,14 @@ Build-Jdk: 1.8.0_131
 Extension-Name: azure-container-registry-tasks
 Specification-Title: Send a quick task to Azure Container Registry.
 Implementation-Title: azure-container-registry-tasks
-Implementation-Version: 0.6.2
+Implementation-Version: 0.6.3
 Plugin-Class: com.microsoft.jenkins.acr.ACRTasksPlugin
 Group-Id: org.jenkins-ci.plugins
 Short-Name: azure-container-registry-tasks
 Long-Name: Azure Container Registry Tasks Plugin
 Url: https://wiki.jenkins.io/display/JENKINS/Azure+Container+Registry+
  Tasks+Plugin
-Plugin-Version: 0.6.2
+Plugin-Version: 0.6.3
 Hudson-Version: 1.651.3
 Jenkins-Version: 1.651.3
 Mask-Classes: com.microsoft.jenkins.azurecommons.core.                
@@ -40,5 +40,6 @@ Mask-Classes: com.microsoft.jenkins.azurecommons.core.
  nerregistry
 Plugin-Dependencies: azure-commons:0.2.5,azure-credentials:1.6.0,scm-a
  pi:1.3,structs:1.10
-Plugin-Developers: 
+Plugin-Developers: Azure DevOps Team:azure_devops:vscjenkins@microsoft
+ .com
 

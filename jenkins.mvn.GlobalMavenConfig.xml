@@ -1,0 +1,7 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.mvn.GlobalMavenConfig>
+  <settingsProvider class="jenkins.mvn.DefaultSettingsProvider"/>
+  <globalSettingsProvider class="jenkins.mvn.FilePathGlobalSettingsProvider">
+    <path>/var/jenkins_home/secrets/settings.xml</path>
+  </globalSettingsProvider>
+</jenkins.mvn.GlobalMavenConfig>

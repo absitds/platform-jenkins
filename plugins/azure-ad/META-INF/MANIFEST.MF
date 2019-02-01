@@ -2,18 +2,18 @@ Manifest-Version: 1.0
 Archiver-Version: Plexus Archiver
 Created-By: Apache Maven
 Built-By: jieshe
-Build-Jdk: 1.8.0_181
+Build-Jdk: 1.8.0_191
 Extension-Name: azure-ad
 Specification-Title: A Jenkins authentication & authorization plugin f
  or Azure Active Directory
 Implementation-Title: azure-ad
-Implementation-Version: 0.3.1
+Implementation-Version: 0.3.2
 Plugin-Class: com.microsoft.jenkins.azuread.AzureAdPlugin
 Group-Id: org.jenkins-ci.plugins
 Short-Name: azure-ad
 Long-Name: Azure AD Plugin
 Url: https://wiki.jenkins.io/display/JENKINS/Azure+AD+Plugin
-Plugin-Version: 0.3.1
+Plugin-Version: 0.3.2
 Hudson-Version: 2.60.1
 Jenkins-Version: 2.60.1
 Mask-Classes: com.microsoft.jenkins.azurecommons.core.                

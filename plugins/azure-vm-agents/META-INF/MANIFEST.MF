@@ -6,13 +6,13 @@ Build-Jdk: 1.8.0_191
 Extension-Name: azure-vm-agents
 Specification-Title: Provisions agents on Azure cloud
 Implementation-Title: azure-vm-agents
-Implementation-Version: 0.7.5
+Implementation-Version: 0.8.0
 Plugin-Class: com.microsoft.azure.vmagent.AzureVMAgentPlugin
 Group-Id: org.jenkins-ci.plugins
 Short-Name: azure-vm-agents
 Long-Name: Azure VM Agents
 Url: https://wiki.jenkins-ci.org/display/JENKINS/Azure+VM+Agents+Plugin
-Plugin-Version: 0.7.5
+Plugin-Version: 0.8.0
 Hudson-Version: 1.653
 Jenkins-Version: 1.653
 Mask-Classes: com.microsoft.jenkins.azurecommons.core.                
@@ -36,8 +36,8 @@ Mask-Classes: com.microsoft.jenkins.azurecommons.core.
  gement.                        com.microsoft.azure.serializer.       
                   com.microsoft.azure.storage.                        
  com.microsoft.rest.
-Plugin-Dependencies: plain-credentials:1.4,azure-credentials:1.4.0,cre
- dentials:2.1.5,cloud-stats:0.11,azure-commons:0.2.4
+Plugin-Dependencies: cloud-stats:0.11,credentials:2.1.5,azure-credenti
+ als:1.4.0,azure-commons:0.2.4,plain-credentials:1.4
 Plugin-Developers: Azure DevOps Team:azure_devops:vscjenkins@microsoft
  .com
 

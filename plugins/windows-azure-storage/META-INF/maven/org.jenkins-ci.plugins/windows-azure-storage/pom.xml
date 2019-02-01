@@ -8,7 +8,7 @@
 
 
     <artifactId>windows-azure-storage</artifactId>
-    <version>0.3.11</version>
+    <version>0.3.13</version>
     <packaging>hpi</packaging>
     <name>Windows Azure Storage plugin</name>
     <description>Uploads build artifacts or downloads build dependencies using Azure storage</description>
@@ -18,7 +18,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <jenkins.version>1.651.3</jenkins.version>
-        <java.level>7</java.level>
+        <java.level>8</java.level>
         <findbugs.failOnError>true</findbugs.failOnError>
         <findbugs.excludeFilterFile>exclude-findbugs.xml</findbugs.excludeFilterFile>
         <maven.javadoc.skip>true</maven.javadoc.skip>
@@ -81,7 +81,7 @@
         <dependency>
             <groupId>org.apache.tika</groupId>
             <artifactId>tika-core</artifactId>
-            <version>1.14</version>
+            <version>1.20</version>
         </dependency>
         <dependency>
             <groupId>org.jenkins-ci.plugins</groupId>
@@ -139,7 +139,7 @@
         <developerConnection>scm:git:ssh://git@github.com/jenkinsci/windows-azure-storage-plugin.git
         </developerConnection>
         <url>https://github.com/jenkinsci/windows-azure-storage-plugin</url>
-        <tag>windows-azure-storage-0.3.11</tag>
+        <tag>windows-azure-storage-0.3.13</tag>
     </scm>
 
     <repositories>
@@ -180,9 +180,8 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.20.1</version>
+                <version>3.0.0-M1</version>
                 <configuration>
-                    <useSystemClassLoader>false</useSystemClassLoader>
                     <excludes>
                         <exclude>InjectedTest.java</exclude>
                     </excludes>
@@ -191,6 +190,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-failsafe-plugin</artifactId>
+                <version>3.0.0-M1</version>
                 <configuration>
                     <forkCount>10</forkCount>
                     <reuseForks>true</reuseForks>
